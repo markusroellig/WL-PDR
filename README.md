@@ -6,3 +6,5 @@ PDRs are Photon Dominated Regions in the interstellar medium. A PDR model comput
 
 PDRica is a port of the simple toy PDR model PyPDR written by Simon Bruderer (http://www.mpe.mpg.de/~simonbr/research_pypdr/). This is not meant to be a model for real world applications but to test certain numerical or physical aspects of PDR modelling in a very simple model setup.
 
+So far the package is not yet uploaded. The test notebook contains all the code.
+
