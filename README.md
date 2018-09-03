@@ -1,6 +1,6 @@
 # PDRica
 A simple Mathematica PDR model code
-Written by M. Röllig (2018). Contact: mailto://roellig@ph1.uni-koeln.de, https://www.astro.uni-koeln.de/staff/roellig/
+Written by M. Röllig (2018). Contact: roellig@ph1.uni-koeln.de, https://www.astro.uni-koeln.de/staff/roellig/
 
 PDRs are Photon Dominated Regions in the interstellar medium. A PDR model computes the chemical and thermodynamical balance in these regions and their emission signature (see e.g.  https://www.astro.uni-koeln.de/node/346). 
 
