@@ -1,0 +1,75 @@
+!MOLECULE
+C+ (atomic ion)
+!MOLECULAR WEIGHT
+12.0
+!NUMBER OF ENERGY LEVELS
+5
+!LEVEL + ENERGIES(cm^-1) + WEIGHT + J
+    1     0.000000000   2.0     2P_1/2
+    2    63.395087      4.0     2P_3/2
+    3   43003.291       2.0     4P_1/2
+    4   43025.285       4.0     4P_3/2
+    5   43053.568       6.0     4P_5/2
+!NUMBER OF RADIATIVE TRANSITIONS
+9
+!TRANS + UP + LOW + EINSTEINA(s^-1) + FREQ(GHz) + E_u(K)
+    1     2     1  2.300E-06        1900.5369        91.21
+    2     3     1  5.530E+01     1289206.2        61871.8
+    3     3     2  6.550E+01     1287305.7        61871.8
+    4     4     1  1.710E+00     1289865.6        61903.4
+    5     4     2  5.240E+00     1287965.1        61903.4
+    6     4     3  2.390E-07         659.364      61903.4
+    7     5     2  4.320E+01     1288813.0        61944.1
+    8     5     4  3.670E-07         847.903      61944.1
+    9     5     3  3.490E-14        1507.267      61944.1
+!NUMBER OF COLL PARTNERS
+4
+!COLLISIONS BETWEEN
+2 C+ + pH2  ! Flower & Launay (1977, JPB, 10, 3673); no corr. for Flower (1988)
+!NUMBER OF COLL TRANS
+1
+!NUMBER OF COLL TEMPS
+6
+!COLL TEMPS
+   10.0   20.0   50.0  100.0  200.0  250.0 
+!TRANS + UP + LOW + COLLRATES(cm^3 s^-1)
+    1     2     1  3.0e-10 3.4e-10 3.9e-10 4.3e-10 4.6e-10 4.7e-10
+!COLLISIONS BETWEEN
+3 C+ + oH2  ! Flower & Launay (1977, JPB, 10, 3673)
+!NUMBER OF COLL TRANS
+1
+!NUMBER OF COLL TEMPS
+6
+!COLL TEMPS
+   10.0   20.0   50.0  100.0  200.0  250.0 
+!TRANS + UP + LOW + COLLRATES(cm^3 s^-1)
+    1     2     1  4.4e-10 4.6e-10 4.9e-10 5.1e-10 5.6e-10 5.7e-10
+!COLLISIONS BETWEEN
+5 C+ + H  ! Launay & Roueff, 1977, JPB, 10, 879
+!NUMBER OF COLL TRANS
+1
+!NUMBER OF COLL TEMPS
+10
+!COLL TEMPS
+    5.0   10.0   20.0   50.0  100.0  200.0  300.0  500.0 1000.0 3162.0 
+!TRANS + UP + LOW + COLLRATES(cm^3 s^-1)
+    1     2     1  5.9e-10 6.5e-10 7.0e-10 7.7e-10 8.1e-10 8.3e-10 8.5e-10 8.9e-10 9.8e-10 1.1e-09
+!COLLISIONS BETWEEN
+4 C+ + e  ! Wilson & Bell, 2002, MNRAS, 337, 1027
+!NUMBER OF COLL TRANS
+7
+!NUMBER OF COLL TEMPS
+9
+!COLL TEMPS
+   10.0   20.0   50.0  100.0  316.2 1000.0 2000.0 10000. 20000. 
+!TRANS + UP + LOW + COLLRATES(cm^3 s^-1)
+    1     2     1  1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99
+    2     3     1  1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99
+    3     4     1  1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99
+    4     5     1  1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99
+    5     3     2  1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 
+    6     4     2  1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99
+    7     5     2  1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99 1.0e-99
+!
+! switch off C+ + e for benchmark
+!
